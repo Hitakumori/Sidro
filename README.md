@@ -32,7 +32,7 @@ Settings and saved account data live in `%LOCALAPPDATA%\Sidro`, so replacing the
 
 Support development on [Patreon](https://www.patreon.com/cw/Hitakumori). Sidro includes Patreon sign-in and premium access support.
 
-Found a problem or have a feature idea? [Open an issue](https://github.com/Hitakumori/Sidro/issues).
+Found a problem or have a feature idea? [Open an issue](https://github.com/Hitakumori/Sidro/issues). Or in discord: https://discord.gg/j8VSWsVDWt
 
 ---
 
