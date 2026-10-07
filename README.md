@@ -8,7 +8,15 @@ Sidro reads items from your screen using OCR, checks warframe.market prices, and
 
 - **Snip scanning** — Select one item on your screen, review its name, quantity, and price, then create or update its listing.
 
+
+https://github.com/user-attachments/assets/1e0d727e-766e-4f38-bbbb-52280d66996b
+
+
 - **Inventory scanning** — Scan a batch of inventory items or select a single item from your screen.
+
+
+https://github.com/user-attachments/assets/1a762c40-8782-45d4-b74b-59c5c9fdde83
+
 
 - **Void Fissure scanning** — See reward market values in an overlay and queue selected rewards for review after your run.
 
@@ -17,6 +25,11 @@ https://github.com/user-attachments/assets/d4b4d1fe-8f60-4076-9e3c-a221c698c8b3
 
 
 - **Trade scanning and monitoring** — Read your offered trade items and synchronize matching sell listings after a detected successful trade.
+
+
+https://github.com/user-attachments/assets/87c07bf5-342f-4d73-9517-cf335d419f23
+
+
 - **Listing management** — Review prices and quantities, update visibility, and create, update, or delete sell listings.
 - **Selling presets** — Choose pricing options such as Most Common, Quicksell, or an offset from the lowest price.
 - **Ducat saver** — Identify items better suited to bulk ducat trading using your preferred values.
