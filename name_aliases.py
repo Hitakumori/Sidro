@@ -1,4 +1,8 @@
-"""Account-specific, exact OCR spellings of a player's name."""
+"""Account-specific corrections for OCR spellings of player names.
+
+Normalizes and validates a bounded set of exact aliases while retaining
+meaningful punctuation for account matching in scan workflows.
+"""
 
 MAX_NAME_LENGTH = 64
 MAX_ALIASES_PER_ACCOUNT = 20

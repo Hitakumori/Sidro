@@ -1,5 +1,7 @@
-"""
-alert_sound.py - generated copyright-free UI alert sounds.
+"""Generate and play local Sidro notification sounds.
+
+Synthesizes alert WAV files and handles playback for application events;
+generated sounds are runtime data rather than published source assets.
 """
 
 from __future__ import annotations

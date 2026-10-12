@@ -1,4 +1,8 @@
-"""Local app-running time and occasional voluntary support reminders."""
+"""Local runtime tracking for voluntary Sidro support reminders.
+
+Schedules random reminder intervals, persists elapsed app time and handles
+deferral/restart behavior. It performs no membership checks or analytics.
+"""
 from __future__ import annotations
 
 import json

@@ -1,4 +1,8 @@
-"""Validate editable preferences from untrusted configuration files."""
+"""Sanitize editable Sidro preferences loaded from configuration files.
+
+Validates supported choices, numeric limits and account-name aliases before
+the application applies settings supplied by a local file.
+"""
 
 import math
 import re

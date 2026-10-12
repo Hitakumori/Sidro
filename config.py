@@ -1,8 +1,8 @@
-"""
-config.py - Central configuration for Sidro.
+"""Sidro configuration, defaults, resource paths and local data migration.
 
-Runtime files are written to ``%LOCALAPPDATA%/Sidro``. Keep tokens,
-account cache, settings, screenshots, and logs out of the source tree.
+Runtime files normally live under %LOCALAPPDATA%/Sidro. Source diagnostics can
+override that directory with TTB_DATA_DIR. Tokens, personal settings, account
+state and generated files must remain outside the published source snapshot.
 """
 
 import os
