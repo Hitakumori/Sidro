@@ -93,8 +93,6 @@ sellers, it uses the next-lowest offer when available (`7, 15` suggests **15p**)
 
 ## Default Hotkeys
 
-| Action | Hotkey |
-|---|---|
 | Select and list one item (Sidro snip) | `Ctrl+Shift+S` |
 
 
@@ -108,6 +106,7 @@ https://github.com/user-attachments/assets/bb72ce24-bdc3-493a-98da-b1eab02cf61c
 
 
 | Inventory scan, bottom row | `Ctrl+Shift+B` |
+
 | Trade monitor | `Ctrl+Shift+T` |
 
 
