@@ -1,5 +1,8 @@
-"""
-auth_manager.py - User-provided warframe.market token validation and storage.
+"""User-provided Warframe Market token validation and local storage.
+
+Validates the market token before replacing its saved value. This module
+supports market listing access; Sidro features require no membership or
+paid-access entitlement service.
 """
 
 from __future__ import annotations

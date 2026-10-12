@@ -1,12 +1,8 @@
-"""
-account_store.py - Local account state cache.
+"""Local inventory and listing-state cache for Sidro.
 
-This is intentionally boring JSON. It gives the app a fast local view of:
-  - items detected in your inventory scans
-  - items currently listed on warframe.market
-
-Trade syncing can then match against your own known/listed items instead of
-OCR/fuzzy-searching the entire Warframe item manifest every time.
+Stores scan results and known market listings as JSON so review and trade
+matching can use the user's local item state. Runtime account data belongs
+in the app's data directory and must not be published with source.
 """
 
 from __future__ import annotations

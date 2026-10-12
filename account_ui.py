@@ -1,5 +1,7 @@
-"""
-account_ui.py - Local account inventory/listing manager.
+"""Older CustomTkinter account, listing and token dialogs.
+
+Contains the earlier local account manager and token-import interface.
+The current portable application's corresponding dialogs live in qt_ui.py.
 """
 
 from __future__ import annotations
