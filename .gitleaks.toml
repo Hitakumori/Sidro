@@ -1,0 +1,22 @@
+title = "Sidro publication secret scan"
+
+[extend]
+useDefault = true
+
+# Review only these generic-key false positives; provider-specific rules stay active.
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Reviewed publication SHA256 values, also validated against file bytes by the source guard"
+condition = "AND"
+paths = ['''(^|[/\\])PUBLIC_SOURCE_FILES\.json$''']
+regexTarget = "secret"
+regexes = ['''^[a-f0-9]{64}$''']
+
+[[rules.allowlists]]
+description = "Public Warframe Market catalog item IDs, fixed by the reviewed file hash"
+condition = "AND"
+paths = ['''(^|[/\\])item_ids_cache\.json$''']
+regexTarget = "secret"
+regexes = ['''^[a-f0-9]{24}$''']

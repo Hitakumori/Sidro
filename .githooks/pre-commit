@@ -1,0 +1,3 @@
+#!/bin/sh
+set -eu
+python -B tools/verify_public_source.py --require-git

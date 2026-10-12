@@ -1,0 +1,10 @@
+# Complete locked repair closure. Install with --no-deps to preserve the
+# single OpenCV provider and transitive versions used by the source/release lock.
+typing-extensions==4.16.0
+winrt-runtime==3.2.1
+winrt-windows-foundation==3.2.1
+winrt-windows-foundation-collections==3.2.1
+winrt-windows-globalization==3.2.1
+winrt-windows-graphics-imaging==3.2.1
+winrt-windows-media-ocr==3.2.1
+winrt-windows-storage-streams==3.2.1

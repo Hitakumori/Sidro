@@ -1,0 +1,38 @@
+# Newest upstream-compatible direct dependencies, checked 2026-10-06.
+# Release builders use requirements-release.lock to also pin indirect dependencies.
+# See release_materials/DEPENDENCY_BASELINE.md for required version exceptions.
+
+# Screen Capture
+dxcam==0.3.0           # DXGi/WGC-backed ultra-low-latency capture (primary)
+mss==10.2.0            # Fallback cross-platform capture
+
+# OCR - Sidro base build
+rapidocr==3.9.2
+paddleocr==3.7.0
+paddlepaddle==3.3.1
+paddlex==3.7.2
+onnxruntime==1.30.0
+-r requirements-windowsocr.txt
+# Other optional OCR packs are installed from Settings.
+
+# Fuzzy Matching
+thefuzz==0.22.1
+python-Levenshtein==0.27.5   # Speeds up thefuzz significantly
+
+# API / Networking
+requests==2.34.2
+websocket-client==1.9.2      # For warframe.market live order websocket (optional)
+
+# UI
+PySide6-Essentials==6.11.2     # Keep the Qt baseline that supports Windows 10 and 11
+Pillow==12.3.0                # Image processing + UI thumbnails
+
+# Utilities
+packaging==26.3               # OCR dependency compatibility checks
+numpy==2.3.5                  # Latest allowed by PaddleX's numpy<2.4 constraint
+opencv-contrib-python==4.10.0.84 # PaddleX OCR-core pin; sole cv2 provider for both engines
+keyboard==0.13.5              # Global hotkeys
+pydantic==2.13.5              # Config validation
+python-dotenv==1.2.4          # Secrets management
+cryptography==50.0.2          # Required by modelscope-hub
+pyinstaller==6.22.3           # Optional: package the app as a Windows exe

@@ -1,0 +1,49 @@
+{
+  "alert_sound_enabled": true,
+  "alert_sound_style": "Random",
+  "alert_sound_volume": 0.45,
+  "alert_sound_custom_path": "",
+  "wfm_ingame_name": "",
+  "ocr_name_aliases": {},
+  "min_listing_price": 2,
+  "visual_notifications_enabled": true,
+  "notification_corner": "top_left",
+  "sidro_notification_mascot": false,
+  "sidro_visual_character": "robot",
+  "sidro_welcome_visual_frequency": "once_a_day",
+  "sidro_welcome_audio_enabled": true,
+  "update_check_frequency": "daily",
+  "ui_font_family": "Segoe UI",
+  "ui_font_size": 12,
+  "ui_table_text_alignment": "left",
+  "ui_colors": {},
+  "ocr_engines": {
+    "single_scan": "rapidocr",
+    "inventory_6x3": "rapidocr",
+    "inventory_bottom6": "rapidocr",
+    "trade_monitor": "rapidocr",
+    "reward_prices": "rapidocr"
+  },
+  "ocr_settings_version": 5,
+  "ocr_fallback_enabled": false,
+  "ocr_fallback_engine": "rapidocr",
+  "ocr_fallback_min_score": 85,
+  "ducat_filter_enabled": true,
+  "ducat_bulk_plat_values": {
+    "15": 1,
+    "25": 2,
+    "45": 3,
+    "65": 6,
+    "100": 10
+  },
+  "reward_price_check_enabled": false,
+  "hotkeys": {
+    "scan": "ctrl+shift+s",
+    "inventory_scan": "ctrl+shift+i",
+    "inventory_bottom_scan": "ctrl+shift+b",
+    "trade_monitor": "ctrl+shift+t",
+    "account_ui": "ctrl+shift+m",
+    "reward_scan": "ctrl+shift+r",
+    "quit": "ctrl+shift+q"
+  }
+}

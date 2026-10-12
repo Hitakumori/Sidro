@@ -1,0 +1,25 @@
+{
+  "notices": [
+    {
+      "name": "antlr4-python3-runtime",
+      "version": "4.9.3",
+      "file": "licenses/supplemental/antlr4-python3-runtime/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/antlr/antlr4/4.9.3/LICENSE.txt",
+      "sha256": "b1b379fcaf3219593a4c433feb1b35c780bed23fafaae440b1ae2771a9521e3a"
+    },
+    {
+      "name": "rapidocr",
+      "version": "3.9.2",
+      "file": "licenses/supplemental/rapidocr/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/RapidAI/RapidOCR/v3.9.2/LICENSE",
+      "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333"
+    },
+    {
+      "name": "flatbuffers",
+      "version": "25.12.19",
+      "file": "licenses/supplemental/flatbuffers/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/google/flatbuffers/v25.12.19/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ]
+}
