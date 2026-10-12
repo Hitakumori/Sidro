@@ -1,12 +1,8 @@
-"""
-pillar2_ocr.py — OCR & Text Normalization
-==========================================
-Reads item names from captured frames using a configured OCR backend,
-then fuzzy-matches the raw OCR output against the official Warframe
-item list to correct misspellings and OCR artifacts.
+"""OCR engine loading, text normalization and catalog-name matching.
 
-Pipeline:
-  Frame → OCR → Raw Text → Normalize → Fuzzy Match → Confirmed Item Name
+Reads names from captured images using the configured OCR engine and matches
+recognized text against public item data. RapidOCR is the portable default;
+optional PaddleOCR and its runtime health checks use the shared baseline.
 """
 
 from __future__ import annotations

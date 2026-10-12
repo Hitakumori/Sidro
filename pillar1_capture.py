@@ -1,12 +1,8 @@
-"""
-pillar1_capture.py — Screen Capture & Region of Interest
-=========================================================
-Uses dxcam (Windows Graphics Capture / DXGI) as primary engine for:
-  • True Borderless Fullscreen support (bypasses GDI black-frame issue)
-  • Hardware-accelerated capture — minimal CPU overhead
-  • <5ms latency on modern GPUs
+"""Screen-region capture and image preparation for Sidro scanners.
 
-Falls back to `mss` for compatibility / non-DXGI scenarios.
+Uses DXCam on supported Windows configurations and MSS as a fallback.
+Supplies captured frames to OCR without injecting into the game or reading
+its process memory.
 """
 
 from __future__ import annotations
