@@ -1,4 +1,8 @@
-"""Keep the latest reward frame while the OCR worker is busy."""
+"""Bounded frame handoff between reward capture and OCR workers.
+
+Keeps recent owned frame copies available while OCR is busy, avoiding an
+unbounded processing queue in the reward-price workflow.
+"""
 from __future__ import annotations
 
 import threading

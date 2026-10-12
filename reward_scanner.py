@@ -1,8 +1,7 @@
-"""
-reward_scanner.py - Void Fissure reward price scanner.
+"""Reward-card item recognition for the Void Fissure price overlay.
 
-Reads the four reward-card item labels and maps them to warframe.market item
-names. The UI layer is responsible for fetching and displaying prices.
+Reads card labels and matches them to Warframe Market item names. Price
+requests and on-screen tags are handled by the application and Qt UI.
 """
 
 from __future__ import annotations

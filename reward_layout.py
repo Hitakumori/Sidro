@@ -1,4 +1,8 @@
-"""Pixel-only reward layout and heading checks, safe for the capture thread."""
+"""Pixel-based reward-card layout and heading detection.
+
+Finds supported card geometry and screen-transition signals without loading
+OCR models. These checks can run on the capture side of the reward workflow.
+"""
 from __future__ import annotations
 
 import cv2
