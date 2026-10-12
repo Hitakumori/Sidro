@@ -217,6 +217,7 @@
 !/settings_validation.py
 !/setup_environment.ps1
 !/support_reminders.py
+!/tests/README.md
 !/tests/test_dependency_baseline.py
 !/tests/test_market_pricing.py
 !/tests/test_name_aliases.py
