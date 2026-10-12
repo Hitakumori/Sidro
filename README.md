@@ -96,10 +96,30 @@ sellers, it uses the next-lowest offer when available (`7, 15` suggests **15p**)
 | Action | Hotkey |
 |---|---|
 | Select and list one item (Sidro snip) | `Ctrl+Shift+S` |
+
+
+https://github.com/user-attachments/assets/ea507aa4-e392-43fd-94ea-62477b8eca48
+
+
 | Inventory scan, first 3 rows | `Ctrl+Shift+I` |
+
+
+https://github.com/user-attachments/assets/bb72ce24-bdc3-493a-98da-b1eab02cf61c
+
+
 | Inventory scan, bottom row | `Ctrl+Shift+B` |
 | Trade monitor | `Ctrl+Shift+T` |
+
+
+https://github.com/user-attachments/assets/888a37b6-6cd0-4142-8c7d-65562ede4d0f
+
+
 | Reward price overlay | `Ctrl+Shift+R` |
+
+
+https://github.com/user-attachments/assets/e30867c9-2971-48fe-a86b-85cff6d7998e
+
+
 | Account manager | `Ctrl+Shift+M` |
 | Quit | `Ctrl+Shift+Q` |
 
