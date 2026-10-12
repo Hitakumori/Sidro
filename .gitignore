@@ -99,6 +99,7 @@
 !/pillar4_ui.py
 !/qt_ui.py
 !/release_materials/DEPENDENCY_BASELINE.md
+!/release_materials/README.md
 !/release_materials/RELEASE_REQUIREMENTS.md
 !/release_materials/THIRD_PARTY_NOTICES.md
 !/release_materials/licenses/NATIVE_SOURCES_AND_REPLACEMENT.md

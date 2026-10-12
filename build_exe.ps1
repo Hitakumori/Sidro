@@ -1,3 +1,4 @@
+# Release entry point: verify the tested lock, package RapidOCR and the updater, bundle notices/sources, then create the ZIP.
 param([string]$ReleaseVenv = ".\.venv-sidro")
 $ErrorActionPreference = "Stop"
 Set-Location -LiteralPath $PSScriptRoot

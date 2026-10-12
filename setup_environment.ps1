@@ -1,3 +1,4 @@
+# Prepare the shared Python 3.12 source/build environment from exact pins. Run source tests before packaging it.
 param([string]$PythonExecutable = "py")
 $ErrorActionPreference = "Stop"
 Set-Location -LiteralPath $PSScriptRoot

@@ -1,4 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
+# PyInstaller application recipe: bundle RapidOCR and required app assets; exclude optional OCR runtimes from the portable build.
 
 from pathlib import Path
 import os

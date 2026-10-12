@@ -1,4 +1,5 @@
 @echo off
+rem Batch release entry point; delegates the tested-baseline build and license bundling to build_exe.ps1.
 setlocal
 cd /d "%~dp0"
 rem Share environment verification and packaging with the PowerShell builder.
