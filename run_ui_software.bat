@@ -1,4 +1,5 @@
 @echo off
+rem Graphics diagnostic source launcher; requests Qt software rendering and preserves the shared OCR dependency baseline.
 cd /d "%~dp0"
 
 rem Dev test launcher for HDR / fullscreen flicker.

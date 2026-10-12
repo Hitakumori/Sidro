@@ -1,29 +1,8 @@
-"""
-Offline inventory scanner evaluator.
+"""Offline evaluator for saved inventory screenshots.
 
-This is a dev/test tool, not part of the release UI. It runs the real
-InventoryScanner against a saved screenshot and optionally compares each grid
-cell against a ground-truth JSON file.
-
-Examples:
-  .\\.venv-sidro\\Scripts\\python.exe evaluate_inventory_scan.py screenshot.png --ocr rapidocr
-  .\\.venv-sidro\\Scripts\\python.exe evaluate_inventory_scan.py screenshot.png --ocr paddleocr --expected expected_6x3.json
-
-Expected JSON formats:
-  {
-    "cells": {
-      "0,0": "Afuris Prime Blueprint",
-      "1,0": "Akarius Prime Link",
-      "2,0": null
-    }
-  }
-
-or row-major list:
-  [
-    "Afuris Prime Blueprint",
-    "Akarius Prime Link",
-    null
-  ]
+Runs InventoryScanner against a local image and optionally compares the
+recognized grid with a ground-truth JSON file. This is a development tool;
+private screenshots and evaluation output must not enter the public snapshot.
 """
 
 from __future__ import annotations
