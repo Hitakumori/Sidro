@@ -1,4 +1,8 @@
-"""Public GitHub release checks and verified Windows release downloads."""
+"""Public GitHub release discovery and verified update downloads.
+
+Selects stable Sidro releases, checks asset URLs and validates download
+checksums before the UI offers installation.
+"""
 from datetime import date
 import hashlib
 import re

@@ -188,8 +188,8 @@
     "tools/verify_public_source.py": "40bb524b7150145e6aeb2111dc74ebaaa350d6de62dbb9e7c47b1964cbdd945a",
     "tools/write_ocr_requirements.py": "cc954a3656025aac3a7c96b1530252ca7d801dfff433623a0ac82040c729c0b2",
     "trade_scanner.py": "e20958d6f8e56ba77701366d15e70021f0097a6d3cb91f42b782cd422183697d",
-    "update_core.py": "3f6109d2e7e6f3b4705e31c50464a327251d2d0758a70594be6db05287302152",
-    "update_ui.py": "638db946e70bc49adb40fded20e1459eb246a1a8477dc96e7ce00bc053d0a02e",
-    "updater_helper.py": "a9898e23f0f64fc1ad2330ccea620792832e4ea70fb0d95ae8eb6a2c5a808c29"
+    "update_core.py": "c8047b142621efb0107bc446863710c8fd0c2657c11517d9e18010ab8ffffd05",
+    "update_ui.py": "3501c7cfb18eb0bb7905ddeacf857c76ffe7888f43db93e422f45d06bc600a8b",
+    "updater_helper.py": "a87385c322ceff6cdabe692b74993326e4477da75b86fe92d7996027dfca3cfc"
   }
 }

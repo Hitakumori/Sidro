@@ -1,4 +1,9 @@
-"""Standalone packaged updater; run from a temporary directory outside Sidro."""
+"""Standalone helper for replacing a portable Sidro installation.
+
+Runs outside the installation directory, validates/extracts the update and
+coordinates replacement/restart. The release builder packages this module
+as SidroUpdater.exe alongside the main application.
+"""
 import ctypes
 import json
 import os

@@ -1,4 +1,8 @@
-"""Nonblocking optional update UI shared by startup and Settings."""
+"""Background update checks and download/install controls for Sidro.
+
+Connects update_core.py to startup and Settings, persists local update
+preferences and starts the separate updater without blocking the UI.
+"""
 from datetime import date
 import json
 import os
