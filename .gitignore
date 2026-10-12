@@ -233,6 +233,7 @@
 !/tests/test_ui_redesign.py
 !/tests/test_ui_release.py
 !/tests/test_updates.py
+!/tools/README.md
 !/tools/bundle_release_materials.py
 !/tools/check_dependencies.py
 !/tools/check_dependency_updates.py
