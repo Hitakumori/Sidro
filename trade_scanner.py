@@ -1,13 +1,8 @@
-"""
-trade_scanner.py - Trading Post sold-item monitor
-==================================================
-External-only screen reader for Warframe Trading Post.
+"""External screen reader for successful Warframe trades.
 
-Flow:
-  1. Scan the top player name and verify it is your account.
-  2. OCR the six top-row trade slots to identify offered item names.
-  3. Wait for the "The trade was successful!" dialog.
-  4. Caller updates/deletes matching warframe.market sell listings.
+Checks the displayed player name, recognizes offered item slots and detects
+the trade-success dialog. The caller uses these results to synchronize the
+user's corresponding Warframe Market listings.
 """
 
 from __future__ import annotations

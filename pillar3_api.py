@@ -1,19 +1,8 @@
-"""
-pillar3_api.py — Warframe.Market REST API Handler
-==================================================
-Handles ALL market operations via the official REST API.
-No browser automation — auth token only.
+"""Warframe Market API access, item catalogs and suggested listing prices.
 
-Key operations:
-  • Fetch current lowest sell price for an item
-  • Fetch your existing listings
-  • Create a new sell order
-  • Delete/update an existing order
-
-Token Acquisition (manual, one-time):
-  1. Log into warframe.market in Microsoft Edge
-  2. Open DevTools → Application → Storage → Cookies → warframe.market
-  3. Paste the value of the `JWT` cookie into the app's Login / Token dialog.
+Fetches public item/price data and manages the user's listings with their
+market token. This module supplies pricing and listing operations to the
+app's scan, review and trade-synchronization workflows.
 """
 
 from __future__ import annotations

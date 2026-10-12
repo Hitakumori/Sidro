@@ -35,7 +35,7 @@
     "name_aliases.py": "b05a8d5ac04264a497d8f56890221617175aae1fa2a8b77d92dc2da9de4bc62d",
     "pillar1_capture.py": "b8103bc28f902aca38afed8b84ea0a49b523cb59cfefe335b7a36cd93ac9cdfc",
     "pillar2_ocr.py": "ae7a47c55ecea681fd07980bcd8482a6bd026e08c50a0919e2d8d79d2a6f29a8",
-    "pillar3_api.py": "2f3fce68455b60f9021c56c0467adfa236f76acee570e4acc86288645866ddc7",
+    "pillar3_api.py": "2329cde45451f612147efe965c8bcdac6cee68baf31a4eef569e30ecdac5e803",
     "pillar4_ui.py": "25f1abbbcf64e9a85728cc710244a32515b3e4d20bcabb38a5f735a52fef1fdf",
     "qt_ui.py": "608f02544a92be71e479d9c3c828205915dfce2568bdd6ffb5edf5e009b45fe8",
     "release_materials/DEPENDENCY_BASELINE.md": "4298b2d08a821cebf217ef4e01ebd3185e2381cd4ca87b2bac56adc080d96572",
@@ -187,7 +187,7 @@
     "tools/updater_version.txt": "91bd552ec069d83364ebd05948820b7dca895665a29f7ab23ee3c3c453ae7909",
     "tools/verify_public_source.py": "40bb524b7150145e6aeb2111dc74ebaaa350d6de62dbb9e7c47b1964cbdd945a",
     "tools/write_ocr_requirements.py": "cc954a3656025aac3a7c96b1530252ca7d801dfff433623a0ac82040c729c0b2",
-    "trade_scanner.py": "04caa673c19ebb6dabef42d1365e94ceb97e7414df83f097c6689204438fea15",
+    "trade_scanner.py": "e20958d6f8e56ba77701366d15e70021f0097a6d3cb91f42b782cd422183697d",
     "update_core.py": "3f6109d2e7e6f3b4705e31c50464a327251d2d0758a70594be6db05287302152",
     "update_ui.py": "638db946e70bc49adb40fded20e1459eb246a1a8477dc96e7ce00bc053d0a02e",
     "updater_helper.py": "a9898e23f0f64fc1ad2330ccea620792832e4ea70fb0d95ae8eb6a2c5a808c29"
