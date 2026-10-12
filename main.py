@@ -1,21 +1,8 @@
-"""
-main.py — Sidro Orchestrator
-=================================================
-Two scan modes:
+"""Sidro application entry point and workflow coordinator.
 
-  SINGLE ITEM SNIP  (Ctrl+Shift+S)
-    Uses Windows Snipping Tool to select one item → review name and amount → list.
-
-  INVENTORY SCAN  (Ctrl+Shift+I)  ← PRIMARY MODE
-    Scans the entire Inventory/Sell grid → shows all detected items
-    in a batch review UI → tick which to list → confirm all at once.
-
-    Workflow:
-      1. Open Warframe Inventory/Sell screen (Prime Parts tab)
-      2. Press Ctrl+Shift+I
-      3. Review detected items in the overlay window
-      4. Check/uncheck items, review suggested prices
-      5. Press "List Selected" → posts all confirmed listings
+Connects global hotkeys, capture/OCR workers, inventory and reward scans,
+trade monitoring, Qt review dialogs and confirmed Warframe Market actions.
+The current UI is provided by qt_ui.py; source launchers run this module.
 """
 
 from __future__ import annotations

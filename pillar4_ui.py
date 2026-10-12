@@ -1,14 +1,7 @@
-"""
-pillar4_ui.py — Confirmation UI
-================================
-A compact, always-on-top overlay window (customtkinter) that shows:
-  • What OCR detected
-  • Fuzzy match result + confidence
-  • Current lowest market price & suggested listing price
-  • Top 5 competing orders
-  • [Y] Confirm / [N] Cancel keyboard shortcuts + buttons
+"""Older CustomTkinter confirmation dialogs and UI controller.
 
-Designed to be non-intrusive: small footprint, high contrast, Warframe aesthetic.
+Contains the earlier snip review, toast and event-loop interface.
+The current portable application's Dashboard and dialogs live in qt_ui.py.
 """
 
 from __future__ import annotations

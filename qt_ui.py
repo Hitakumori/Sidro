@@ -1,5 +1,8 @@
-"""
-qt_ui.py - PySide6 UI layer for Sidro.
+"""Current PySide6 interface for Sidro.
+
+Provides the Dashboard, inventory and snip review, reward overlays, settings,
+market-token dialogs, OCR health/install controls and voluntary support UI.
+main.py supplies application workflows and market callbacks.
 """
 
 from __future__ import annotations
