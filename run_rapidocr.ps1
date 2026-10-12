@@ -1,3 +1,4 @@
+# Request rapidocr for a source run through the shared locked environment; no packages are installed by this launcher.
 Set-Location -LiteralPath $PSScriptRoot
 $env:TTB_OCR_ENGINE = "rapidocr"
 $env:WFM_OCR_GPU = "0"

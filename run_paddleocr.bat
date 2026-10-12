@@ -1,4 +1,5 @@
 @echo off
+rem Request paddleocr for a source run through the shared locked environment; no packages are installed by this launcher.
 cd /d "%~dp0"
 set TTB_OCR_ENGINE=paddleocr
 set WFM_OCR_GPU=0
