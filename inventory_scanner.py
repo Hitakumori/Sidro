@@ -1,26 +1,8 @@
-"""
-inventory_scanner.py — Batch Inventory Grid Scanner
-=====================================================
-Designed specifically for the Warframe INVENTORY/SELL screen.
+"""Inventory-grid capture, item recognition and quantity extraction.
 
-Instead of scanning one item at a time, this module:
-  1. Captures the entire inventory grid ROI in one shot
-  2. Slices it into individual card label regions (the text below each icon)
-  3. Runs OCR on each label cell in parallel
-  4. Fuzzy-matches all detected names at once
-  5. Returns a structured list of detected items with quantity info
-
-Layout reference (1080p, from your Inventory/Sell screenshot):
-  ┌──────────────────────────────────────────────────┐
-  │  Grid origin: ~(76, 199)                         │
-  │  Card size:   190w × 190h                        │
-  │  Card stride: 207x × 222y                        │
-  │  Cols: 6    Rows: 4 (visible)                    │
-  │  Label strip: y+132 through card bottom          │
-  └──────────────────────────────────────────────────┘
-
-Quantity badges (the ✓2, ✓3 etc.) are in the top-left corner of each
-card. This module reads those too via a targeted OCR pass.
+Slices the captured grid into label/badge regions, runs OCR and item matching,
+then returns structured inventory results for review. Running this module
+directly performs a scanner diagnostic and writes local debug images.
 """
 
 from __future__ import annotations

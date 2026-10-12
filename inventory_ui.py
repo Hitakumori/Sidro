@@ -1,16 +1,7 @@
-"""
-inventory_ui.py — Batch Inventory Review Window
-================================================
-Shows all OCR-detected items in a scrollable checklist.
-Each row shows: ✓ checkbox | Item Name | Qty | Lowest Price | Your Price
+"""Older CustomTkinter inventory-review interface.
 
-The user can:
-  • Check/uncheck individual items
-  • "Select All" / "Deselect All"
-  • Edit the listing price per item (override the auto-suggested price)
-  • Click "List Selected" → posts all checked items
-
-Styled to match the Warframe dark-gold aesthetic.
+Contains item rows, selection controls and listing callbacks for the earlier
+UI. The current portable application's inventory dialogs live in qt_ui.py.
 """
 
 from __future__ import annotations
