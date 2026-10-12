@@ -7,6 +7,19 @@ The app is external-only: it captures the screen, runs OCR, and talks to
 warframe.market through normal HTTPS requests using the user-provided JWT cookie.
 It does not inject into Warframe or read game memory.
 
+## Find Your Way Around the Source
+
+For downloads and normal use, start with the release instructions below.
+For development, the [source guide](https://github.com/Hitakumori/Sidro/blob/main/SOURCE_GUIDE.md) explains each app module,
+launcher, configuration file and asset, including the older compatibility files.
+
+| Folder | Purpose |
+|---|---|
+| [tools](https://github.com/Hitakumori/Sidro/tree/main/tools) | Environment checks, OCR diagnostics, packaging and publication checks. |
+| [tests](https://github.com/Hitakumori/Sidro/tree/main/tests) | Regression checks for scanning, UI, networking and releases. |
+| [release_materials](https://github.com/Hitakumori/Sidro/tree/main/release_materials) | Dependency notices, license texts and required source information. |
+| [.githooks](https://github.com/Hitakumori/Sidro/tree/main/.githooks) | Local checks that run before a source commit or push. |
+
 ## Downloaded Release
 
 1. Download the release zip from GitHub.
