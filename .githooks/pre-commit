@@ -1,3 +1,4 @@
 #!/bin/sh
+# Verify reviewed source bytes and staged paths before creating a public commit.
 set -eu
 python -B tools/verify_public_source.py --require-git

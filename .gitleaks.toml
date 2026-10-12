@@ -1,3 +1,4 @@
+# Publication scan policy: retain default detectors and allow only reviewed hash/catalog-ID false positives.
 title = "Sidro publication secret scan"
 
 [extend]

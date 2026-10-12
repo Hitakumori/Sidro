@@ -115,7 +115,8 @@ timing and preferences live under `%LOCALAPPDATA%\Sidro` and are not source asse
 | [.gitignore](.gitignore) | Ignores everything outside the reviewed allowlist, including newly created files. |
 | [.gitattributes](.gitattributes) | Preserves exact source bytes and line endings used by the reviewed hashes. |
 | [.gitleaks.toml](.gitleaks.toml) | Secret-scan rules with narrow exceptions for reviewed hashes and public catalog IDs. |
-| [.githooks/README.md](.githooks/README.md) | Explains the local pre-commit and pre-push guards. |
+| [.githooks/pre-commit](.githooks/pre-commit) | Verifies reviewed source bytes and staged files before committing. |
+| [.githooks/pre-push](.githooks/pre-push) | Verifies source/history and scans all refs with Gitleaks before pushing. |
 | [LICENSE](LICENSE) | MIT license for Sidro's original code. |
 
 GitHub's file-list text is the latest commit message for each path. It records a

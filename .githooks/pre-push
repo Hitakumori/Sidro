@@ -1,4 +1,5 @@
 #!/bin/sh
+# Check reviewed source/history and scan every ref for secrets before publishing.
 set -eu
 python -B tools/verify_public_source.py --require-git --history
 command -v gitleaks >/dev/null 2>&1 || { echo "Push blocked: install the verified Gitleaks binary first." >&2; exit 1; }

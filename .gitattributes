@@ -1,2 +1,3 @@
+# Disable Git text conversion so reviewed file hashes cover the same bytes on checkout and staging.
 # Publication hashes cover exact bytes, including the tested Windows line endings.
 * -text

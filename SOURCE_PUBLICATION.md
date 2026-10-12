@@ -1,5 +1,8 @@
 # Publishing Sidro source safely
 
+This procedure is for contributors preparing public source changes. Normal app
+users can follow the download instructions in `README.md` instead.
+
 The public source set is a reviewed client snapshot. `PUBLIC_SOURCE_FILES.json`
 lists exact paths and SHA256 hashes. `.gitignore` ignores everything else,
 including new files. Source edits require a fresh privacy/security review and
